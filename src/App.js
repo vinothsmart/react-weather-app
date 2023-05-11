@@ -2,11 +2,12 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
+  const name = "Vino";
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hi Vino!</p>
+        <p>Hi {name}!</p>
         <a
           className="App-link"
           href="https://reactjs.org"
